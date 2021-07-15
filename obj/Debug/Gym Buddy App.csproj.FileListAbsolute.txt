@@ -1,0 +1,35 @@
+C:\Users\abane\source\repos\Gym Buddy App\bin\Debug\Gym Buddy App.exe.config
+C:\Users\abane\source\repos\Gym Buddy App\bin\Debug\Gym Buddy App.exe
+C:\Users\abane\source\repos\Gym Buddy App\bin\Debug\Gym Buddy App.pdb
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym Buddy App.csprojAssemblyReference.cache
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Properties.Resources.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym Buddy App.csproj.GenerateResource.cache
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym Buddy App.exe
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym Buddy App.pdb
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.MeniForma.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Registracija.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.LoginForm.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Додај_нов_вработен.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Додај_нов_член.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym Buddy App.csproj.CoreCompileInputs.cache
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Измени_вработен.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Измени_член.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Izmeni_Vrab_Izbor.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Izmeni_Chlen_Izbor.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Додај_нова_опрема.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Избриши_опрема.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Сите_вработени.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Сите_членови.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Цела_опрема.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Членски_Карти.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Групни_тренизи.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Персонализирани_тренизни.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Суплементи.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Dodaj_Chlenski_Karti.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Dodaj_Presonalizirani_Treninzi.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Dodaj_grupen_trening.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Dodaj_Suplementi.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Izmeni_chlenski_karti.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Izmeni_gr_treninzi.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Izmeni_pTreninzi.resources
+C:\Users\abane\source\repos\Gym Buddy App\obj\Debug\Gym_Buddy_App.Izmeni_Suplementi.resources
