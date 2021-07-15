@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EA3653B-4581-4A13-AC83-D5BA4F2B472B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gym_Buddy_App</RootNamespace>
+    <AssemblyName>Gym Buddy App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dodaj Chlenski Karti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodaj Chlenski Karti.Designer.cs">
+      <DependentUpon>Dodaj Chlenski Karti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodaj grupen trening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodaj grupen trening.Designer.cs">
+      <DependentUpon>Dodaj grupen trening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodaj Presonalizirani Treninzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodaj Presonalizirani Treninzi.Designer.cs">
+      <DependentUpon>Dodaj Presonalizirani Treninzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodaj Suplementi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodaj Suplementi.Designer.cs">
+      <DependentUpon>Dodaj Suplementi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izmeni chlenski karti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izmeni chlenski karti.Designer.cs">
+      <DependentUpon>Izmeni chlenski karti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izmeni gr treninzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izmeni gr treninzi.Designer.cs">
+      <DependentUpon>Izmeni gr treninzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izmeni pTreninzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izmeni pTreninzi.Designer.cs">
+      <DependentUpon>Izmeni pTreninzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izmeni Suplementi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izmeni Suplementi.Designer.cs">
+      <DependentUpon>Izmeni Suplementi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izmeni_Chlen_Izbor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izmeni_Chlen_Izbor.Designer.cs">
+      <DependentUpon>Izmeni_Chlen_Izbor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izmeni_Vrab_Izbor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izmeni_Vrab_Izbor.Designer.cs">
+      <DependentUpon>Izmeni_Vrab_Izbor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeniForma1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeniForma1.Designer.cs">
+      <DependentUpon>MeniForma1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registracija.Designer.cs">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Групни тренизи.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Групни тренизи.Designer.cs">
+      <DependentUpon>Групни тренизи.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Додај нов вработен.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Додај нов вработен.Designer.cs">
+      <DependentUpon>Додај нов вработен.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Додај нов член.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Додај нов член.Designer.cs">
+      <DependentUpon>Додај нов член.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Додај нова опрема.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Додај нова опрема.Designer.cs">
+      <DependentUpon>Додај нова опрема.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Избриши опрема.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Избриши опрема.Designer.cs">
+      <DependentUpon>Избриши опрема.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Измени вработен.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Измени вработен.Designer.cs">
+      <DependentUpon>Измени вработен.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Измени член.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Измени член.Designer.cs">
+      <DependentUpon>Измени член.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Персонализирани тренизни.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Персонализирани тренизни.Designer.cs">
+      <DependentUpon>Персонализирани тренизни.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Сите вработени.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Сите вработени.Designer.cs">
+      <DependentUpon>Сите вработени.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Сите членови.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Сите членови.Designer.cs">
+      <DependentUpon>Сите членови.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Суплементи.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Суплементи.Designer.cs">
+      <DependentUpon>Суплементи.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Цела опрема.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Цела опрема.Designer.cs">
+      <DependentUpon>Цела опрема.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Членски Карти.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Членски Карти.Designer.cs">
+      <DependentUpon>Членски Карти.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dodaj Chlenski Karti.resx">
+      <DependentUpon>Dodaj Chlenski Karti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodaj grupen trening.resx">
+      <DependentUpon>Dodaj grupen trening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodaj Presonalizirani Treninzi.resx">
+      <DependentUpon>Dodaj Presonalizirani Treninzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodaj Suplementi.resx">
+      <DependentUpon>Dodaj Suplementi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izmeni chlenski karti.resx">
+      <DependentUpon>Izmeni chlenski karti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izmeni gr treninzi.resx">
+      <DependentUpon>Izmeni gr treninzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izmeni pTreninzi.resx">
+      <DependentUpon>Izmeni pTreninzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izmeni Suplementi.resx">
+      <DependentUpon>Izmeni Suplementi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izmeni_Chlen_Izbor.resx">
+      <DependentUpon>Izmeni_Chlen_Izbor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izmeni_Vrab_Izbor.resx">
+      <DependentUpon>Izmeni_Vrab_Izbor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeniForma1.resx">
+      <DependentUpon>MeniForma1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Registracija.resx">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Групни тренизи.resx">
+      <DependentUpon>Групни тренизи.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Додај нов вработен.resx">
+      <DependentUpon>Додај нов вработен.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Додај нов член.resx">
+      <DependentUpon>Додај нов член.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Додај нова опрема.resx">
+      <DependentUpon>Додај нова опрема.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Избриши опрема.resx">
+      <DependentUpon>Избриши опрема.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Измени вработен.resx">
+      <DependentUpon>Измени вработен.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Измени член.resx">
+      <DependentUpon>Измени член.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Персонализирани тренизни.resx">
+      <DependentUpon>Персонализирани тренизни.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Сите вработени.resx">
+      <DependentUpon>Сите вработени.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Сите членови.resx">
+      <DependentUpon>Сите членови.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Суплементи.resx">
+      <DependentUpon>Суплементи.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Цела опрема.resx">
+      <DependentUpon>Цела опрема.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Членски Карти.resx">
+      <DependentUpon>Членски Карти.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
